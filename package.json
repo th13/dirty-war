@@ -1,0 +1,19 @@
+{
+  "name": "dirty-war",
+  "version": "1.0.0",
+  "description": "Dirty war server for Programming Camp",
+  "main": "server.ls",
+  "scripts": {
+    "start": "lsc server.js",
+    "client": "lsc client.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Trevor Helms",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^15.1.1",
+    "inert": "^4.0.2",
+    "ramda": "^0.22.1",
+    "socket.io": "^1.5.0"
+  }
+}
